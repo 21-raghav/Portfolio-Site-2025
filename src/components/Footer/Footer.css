@@ -1,0 +1,14 @@
+.footer-list {
+    max-width: max-content;
+    margin: 24px auto 0;
+    display: flex;
+    gap: 16px;
+}
+.footer-list__link {
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 200ms ease-in-out;
+}
+.footer-list__link:hover {
+    color: hsl(0, 0%, 100%);
+}

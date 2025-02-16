@@ -1,0 +1,15 @@
+.app-wrapper {
+    min-width: 370px;
+    max-width: 768px;
+    padding: 48px 16px;
+    margin: 0 auto;
+}
+ /* Add a separator (hr) between every section element, except the last one */
+  hr {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px; 
+    border-color: var(--color-border); 
+    margin-top: 48px; 
+  }

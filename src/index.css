@@ -1,0 +1,129 @@
+@layer reset, theme, layout;
+
+@layer reset {
+  /*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+  */
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    overflow-wrap: break-word;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
+
+  ul {
+    padding-left: unset;
+    list-style-type: none;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+  #root,
+  #__next {
+    isolation: isolate;
+  }
+}
+
+@layer theme {
+  :root {
+    --color-bg-dark: hsl(0, 0%, 0%);
+    --color-bg-lt-dark: hsl(220, 15%, 5%);
+    --color-font-primary: hsl(0, 0%, 90%);
+    --color-font-secondary: hsl(222, 20%, 60%);
+    --color-font-tertiary: hsl(223, 89%, 66%);
+    --color-border: hsla(220, 13%, 91%, 0.2);
+    --font-size-mob: 14px;
+    --font-size-tab: 16px;
+  }
+  body {
+    background-color: var(--color-bg-dark);
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  section {
+    margin-top: 48px;
+  }
+ 
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-font-primary);
+    font-weight: 600;
+  }
+  p, ul, a {
+    color: var(--color-font-secondary);
+  }
+  p {
+    font-size: var(--font-size-mob);
+  }
+  @media (min-width: 650px) {
+    p {
+      font-size: var(--font-size-tab);
+    }
+  }
+}
+
+@layer layout {
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+  /* .repeating-grid {
+  }
+  .repeating-flex {
+  }
+  .fluid-grid {
+  }
+  .fluid-flex {
+  } */
+}
