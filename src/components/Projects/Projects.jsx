@@ -16,7 +16,7 @@ const PROJECTS = [
     projectName: "Github user search app",
     projectSummary:
       "Github user search app is a react application built to search for a github user by their username.",
-    projectLink: "https://github-profile-search-c3x7843w1-raghavs-projects-0d802424.vercel.app/",
+    projectLink: "https://github-profile-search-app-rosy.vercel.app/",
     projectTechStack: ["React", "JavaScript", "CSS", "HTML"],
   },
   {

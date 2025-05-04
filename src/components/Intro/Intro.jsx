@@ -2,12 +2,15 @@ const Intro = () => {
   return (
     <section>
       <p>
-        I'm an aspiring web developer, skilled in frontend technologies,
-        developing user-friendly, intuitive, and responsive interfaces. I
-        transform design concepts into functional websites and web applications
-        using technologies like React, JavaScript, HTML, and CSS. I stay updated
-        with the best practices in frontend development, continuously honing my
-        skills to deliver top-notch digital solutions.
+        As a React frontend developer, I’m passionate about creating clean,
+        efficient, and user-friendly interfaces. While I’m still learning, I
+        have a solid grasp of React basics, including components, state
+        management, and API integration. I openly acknowledge that I’m working
+        on improving my understanding of advanced React patterns and performance
+        optimization. However, I am eager to collaborate, adapt, and grow as I
+        refine my skills. My goal is to contribute to meaningful projects while
+        continuously learning from experienced developers and real-world
+        challenges.
       </p>
     </section>
   );

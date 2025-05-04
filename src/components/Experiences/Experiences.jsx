@@ -8,7 +8,7 @@ const EXPERIENCES = [
     duration: "Nov 2024 - Jan 2025",
     designation: "Freelance Frontend Developer",
     projectName: "Advocate Site",
-    projectLink: "https://lawyer-page-drab.vercel.app/",
+    projectLink: "https://yashrawatlawattorney.com/",
     summary:
       "Developed and maintained a responsive website for a lawyer, ensuring high-quality user experiences. Collaborated with the client to deliver customized solutions using HTML, CSS, JavaScript, and React. Managed the project timeline, delivered within the deadline, and provided ongoing support and updates.",
     techStack: ["React", "React-Router", "JavaScript", "CSS", "HTML"],
